@@ -30,6 +30,8 @@ body {
     position: absolute;
     font-size: 3em;
     font-weight: bold;
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out;
 }
 @keyframes burn {
     from { width: 0; }
